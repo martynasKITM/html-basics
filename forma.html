@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+  	<title>HTML form</title>
+  	<meta charset="utf-8">
+  	<!-- Formos kurimas-->
+  </head>
+  <body>
+    <h1>Anketa</h1>
+    <form method="post">
+      <fieldset>
+        <input type="text" placeholder="Vardas" required>
+      </fieldset>
+      <fieldset>
+        <input type="email" placeholder="El. paštas" required>
+      </fieldset>
+      <fieldset>
+        <label>Akių spalva:</label>
+        <input type="color" placeholder="Akių spalva" required>
+      </fieldset>
+      <fieldset>
+        <select required>
+          <option selected disabled>--Pasirinkite skyrių--</option>
+          <option>IT</option>
+          <option>Administracija</option>
+          <option>Finansai</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Jūsų žinutė"></textarea>
+      </fieldset>
+      <fieldset>
+        <label>Jūsų CV</label>
+        <input type="file">
+      </fieldset>
+      <fieldset>
+        <input type="checkbox">
+        <label>Sutinku su sąlygom</label>
+      </fieldset>
+      <fieldset>
+        <button type="submit">Saugoti</button>
+      </fieldset>
+    </form>
+  	
+  </body>
+</html>
